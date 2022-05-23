@@ -13,6 +13,7 @@ This repository contains some templates of portfolio from which folks can get in
 {
   "portfolio_website": "https://www.susmitadey.com",
   "portfolio_code": "https://www.github.com/Susmita-Dey/portfolio"
+  "image": "https://user-images.githubusercontent.com/79099734/169740427-71b913c0-a69b-4c9a-a1df-8191813a6cc3.jpg"
 }
 ```
 8. Stage the changes.
