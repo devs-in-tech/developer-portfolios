@@ -6,7 +6,7 @@ This repository contains some templates of portfolio from which folks can get in
 2. Clone it locally on your computer.
 3. Fetch upstream.
 4. Create a new branch in your forked repository.
-5. Go to `website/portfolios.json` folder.
+5. Go to `website/data.json` folder.
 6. Share your portfolio as per the following example: 
 ```json
 {
