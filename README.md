@@ -12,7 +12,8 @@ This repository contains some templates of portfolio from which folks can get in
 ```json
 {
   "portfolio_website": "https://www.susmitadey.com",
-  "portfolio_code": "https://www.github.com/Susmita-Dey/portfolio"
+  "portfolio_code": "https://www.github.com/Susmita-Dey/portfolio",
+  "portfolio_name": "Susmita Dey"
 }
 ```
 8. Stage the changes.
