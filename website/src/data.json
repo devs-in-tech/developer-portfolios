@@ -17,6 +17,12 @@
                 "portfolio_code": "https://www.github.com/Susmita-Dey/portfolio",
                 "portfolio_image": "https://avatars.githubusercontent.com/u/79099734?s=120&v=4",
                 "portfolio_name": "Susmita Dey"
+              },
+              {
+                "portfolio_website": "https://vedantpople4.github.io/Portfolio/",
+                "portfolio_code": "https://github.com/vedantpople4/vedantpople4.github.io/tree/main/Portfolio",
+                "portfolio_name": "Vedant Pople",
+                "portfolio_image": "https://github.com/vedantpople4.png"
               }
        ]
 }
