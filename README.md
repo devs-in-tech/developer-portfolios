@@ -1,13 +1,25 @@
 # Developer Portfolios
 This repository contains some templates of portfolio from which folks can get inspired to make their own portfolios.
 
-## Share your portfolios
+## ⚙️ Things to Note
+
+* Make sure you do not copy codes from external sources because that work will not be considered. Plagiarism is strictly not allowed.
+* You can only work on issues that have been assigned to you.
+* If you want to contribute and make a change, it's preferable that you create a new issue before making a PR and link your PR to that issue.
+* If you have modified/added code, make sure the code compiles before submitting.
+* Add Screenshots and short video to help us know what this change in the PR is all about. 
+* Do not update the **[README.md](https://github.com/opensourcecommunity-hub/developer-portfolios/blob/main/README.md).**
+
+## Start Contributing
 1. Fork the repo.
 2. Clone it locally on your computer.
 3. Fetch upstream.
 4. Create a new branch in your forked repository.
-5. Go to `website` folder.
-6. Go to `data.json` file and create a new object in data array with the following information:
+
+**To share your portfolio:**
+
+6. Go to `website` folder.
+7. Go to `data.json` file and create a new object in data array with the following information:
 ```json
 {
   "portfolio_website": "https://www.susmitadey.com",
@@ -16,6 +28,7 @@ This repository contains some templates of portfolio from which folks can get in
   "portfolio_name": "Susmita Dey"
 }
 ```
+
 7. Stage the changes.
 8. Commit the changes.
 9. Push the changes to the remote repository.
