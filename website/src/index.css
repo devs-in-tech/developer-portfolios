@@ -50,6 +50,14 @@ body {
 .project .projectcode{
 	visibility: hidden;
 }
+.projectcode{
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.projectcode:hover{
+	box-shadow: 2px 2px 14px grey;
+	padding: 2px;
+}
 .project:hover {
 	background-color: #cbc1c1;
 	height: 250px;
