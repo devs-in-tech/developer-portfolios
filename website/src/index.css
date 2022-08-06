@@ -7,8 +7,9 @@ body {
   display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;
+    flex-direction: column;
   margin: 0 0 50px;
+  background-color: bisque;
 }
 
 #root {
@@ -26,25 +27,62 @@ body {
 }
 
 .project {
-	border-radius: 5px;
+	border-radius: 15px;
 	color: #333;
 	display: flex;
 	font-size: 18px;
 	font-weight: bold;
 	flex-direction: column;
 	text-align: center;
-	margin: 20px;
+	margin: 40px;
+	height: 150px;
 	width: 300px;
 	text-decoration: none;
 	transition: 0.3s ease;
+	background-color: white;
+	box-shadow: 2px 3px 13px rgb(33, 33, 33);
+
+}
+.project .personName{
+	visibility: hidden;
 }
 
+.project .projectcode{
+	visibility: hidden;
+}
 .project:hover {
-	background-color: #f0f0f0;
-	transform: scale(1.05);
+	background-color: #cbc1c1;
+	height: 250px;
+	transition: 0.3s;
+}
+.project:hover .personName{
+	visibility: visible;
+}
+.project:hover .projectcode{
+	visibility: visible;
 }
 
 .project img {
-	border-radius: 5px;
-	max-width: 100%;
+	position: relative;
+	height: 150px;
+	width: 150px;
+	object-fit: cover;
+	top:-40px;
+	left: 75px;
+	border-radius: 50px;
+	box-shadow: 2px 2px 15px black;
+	margin-bottom: -30px;
+}
+.personName{
+	font-size: sans-serif;
+	line-height: 1.2em;
+	font-size: 20px;
+	padding: 0px;
+}
+.projectcode{
+	font-size: serif;
+	line-height: .75pm;
+	color:#393535;
+	text-decoration: none;
+	opacity: 0.8;
 }

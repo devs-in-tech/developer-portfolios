@@ -21,9 +21,9 @@ function App() {
               portfolio.portfolio_image ? portfolio.portfolio_image : "no image"
             }
           />
-          <p>{portfolio.portfolio_name}</p>
+          <p className="personName">{portfolio.portfolio_name}</p>
           <a
-            className="project"
+            className="projectcode"
             href={portfolio.portfolio_code}
             target="_blank"
             rel="noreferrer"
