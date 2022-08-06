@@ -27,7 +27,7 @@ function App() {
             href={portfolio.portfolio_code}
             target="_blank"
             rel="noreferrer"
-          >Source Code</a>
+          >Source Code.</a>
         </a>
       ))}
     </>
