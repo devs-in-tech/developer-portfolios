@@ -4,7 +4,8 @@ function App() {
   return (
     <>
       <div className="header">
-        <h1>OpenSourceHub</h1>
+        <h1>OpenSourceHub
+        <div className="bigrect"><span><checkbox className="light-mode"><div className="smallcircle"></div></checkbox></span></div></h1>
       </div>
       {data.data.map((portfolio) => (
         <a
