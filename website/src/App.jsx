@@ -1,5 +1,6 @@
 import data from "./data.json";
-import {useEffect,useState} from 'react';
+// import Toggle from "./Toggle";
+import { useState,useEffect } from "react";
 
 function App() {
   const [theme, setTheme] = useState("light-theme");
@@ -7,11 +8,12 @@ function App() {
     document.body.className = theme;
   }, [theme]);
   function Toggle() {
+  
     if (theme === "dark-theme") {
       setTheme("light-theme");
-   } else {
+    } else {
       setTheme("dark-theme");
-   }
+    }
   }
   return (
     <>
