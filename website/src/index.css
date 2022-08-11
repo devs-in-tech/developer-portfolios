@@ -48,13 +48,11 @@ body {
 	/* box-shadow: 2px 3px 13px rgb(33, 33, 33); */
 
 }
-.project .personName{
-	visibility: hidden;
+
+.container {
+	opacity: 0;
 }
 
-.project .projectcode{
-	visibility: hidden;
-}
 .projectcode{
 	margin-left: 80px;
 	margin-right: 80px;
@@ -68,11 +66,9 @@ body {
 	height: 250px;
 	transition: 0.3s;
 }
-.project:hover .personName{
-	visibility: visible;
-}
-.project:hover .projectcode{
-	visibility: visible;
+.project:hover .container{
+	transition: ease-out 1.5s;
+	opacity: 1;
 }
 
 .project img {

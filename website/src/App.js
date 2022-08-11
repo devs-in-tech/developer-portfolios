@@ -21,13 +21,15 @@ function App() {
               portfolio.portfolio_image ? portfolio.portfolio_image : "no image"
             }
           />
-          <p className="personName">{portfolio.portfolio_name}</p>
-          <a
-            className="projectcode"
-            href={portfolio.portfolio_code}
-            target="_blank"
-            rel="noreferrer"
-          >Source Code</a>
+          <div className="container">
+            <p className="personName">{portfolio.portfolio_name}</p>
+            <a
+              className="projectcode"
+              href={portfolio.portfolio_code}
+              target="_blank"
+              rel="noreferrer"
+            >Source Code</a>
+          </div>
         </a>
       ))}
     </>
