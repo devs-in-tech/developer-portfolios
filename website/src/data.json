@@ -1,34 +1,35 @@
 {
-       "data": [
-              {
-                "portfolio_website": "https://jothin.tech/",
-                "portfolio_code": "https://github.com/jothin-kumar/jothin-kumar.github.io",
-                "portfolio_name": "Jothin Kimar",
-                "portfolio_image": "https://www.jothin.tech/favicon.webp"
-              },
-              {
-                "portfolio_website": "https://mohamed-ehab-portfolio.vercel.app",
-                "portfolio_code": "https://www.github.com/Programming-School-Pro-Coding/developer-portfolio",
-                "portfolio_image": "https://avatars.githubusercontent.com/u/96921717?s=88&u=e77205f3991f2d3cd0e120d49989bb282ac54287&v=4",
-                "portfolio_name": "Programming School"
-              },
-              {
-                "portfolio_website": "https://susmita-dey.github.io/",
-                "portfolio_code": "https://www.github.com/Susmita-Dey.github.io",
-                "portfolio_image": "https://avatars.githubusercontent.com/u/79099734?s=120&v=4",
-                "portfolio_name": "Susmita Dey"
-              },
-              {
-                "portfolio_website": "https://vedantpople4.github.io/Portfolio/",
-                "portfolio_code": "https://github.com/vedantpople4/vedantpople4.github.io/tree/main/Portfolio",
-                "portfolio_name": "Vedant Pople",
-                "portfolio_image": "https://github.com/vedantpople4.png"
-              },
-              {
-                "portfolio_website": "https://soham-chatterjee.github.io",
-                "portfolio_code": "https://github.com/Soham-Chatterjee/soham-chatterjee.github.io",
-                "portfolio_name": "Soham's Space",
-                "portfolio_image": "https://avatars.githubusercontent.com/u/75290254?s=400&u=ae9faeb0c8781fb444671c70a87aa40af899f60d&v=4"
-              }
-       ]
+  "data": [
+    {
+      "portfolio_website": "https://jothin.tech/",
+      "portfolio_code": "https://github.com/jothin-kumar/jothin-kumar.github.io",
+      "portfolio_name": "Jothin Kimar",
+      "portfolio_image": "https://www.jothin.tech/favicon.webp"
+    },
+    {
+      "portfolio_website": "https://mohamed-ehab-portfolio.vercel.app",
+      "portfolio_code": "https://www.github.com/Programming-School-Pro-Coding/developer-portfolio",
+      "portfolio_image": "https://avatars.githubusercontent.com/u/96921717?s=88&u=e77205f3991f2d3cd0e120d49989bb282ac54287&v=4",
+      "portfolio_name": "Programming School"
+    },
+    {
+      "portfolio_website": "https://susmita-dey.github.io/",
+      "portfolio_code": "https://www.github.com/Susmita-Dey.github.io",
+      "portfolio_image": "https://avatars.githubusercontent.com/u/79099734?s=120&v=4",
+      "portfolio_name": "Susmita Dey"
+    },
+    {
+      "portfolio_website": "https://vedantpople4.github.io/Portfolio/",
+      "portfolio_code": "https://github.com/vedantpople4/vedantpople4.github.io/tree/main/Portfolio",
+      "portfolio_name": "Vedant Pople",
+      "portfolio_image": "https://github.com/vedantpople4.png"
+    },
+    {
+      "portfolio_website": "https://parkhi277.github.io/MyPortfolio/",
+      "portfolio_code": "https://github.com/PARKHI277/MyPortfolio",
+      "portfolio_name": "Parkhi Garg",
+      "portfolio_image": "https://avatars.githubusercontent.com/u/76432727?s=400&v=4"
+    }
+  ]
+
 }
