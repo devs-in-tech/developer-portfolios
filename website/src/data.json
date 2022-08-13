@@ -1,4 +1,5 @@
 {
+
        "data": [
               {
                 "portfolio_website": "https://jothin.tech/",
@@ -35,6 +36,13 @@
                 "portfolio_code": "https://github.com/Soham-Chatterjee/soham-chatterjee.github.io",
                 "portfolio_name": "Soham's Space",
                 "portfolio_image": "https://avatars.githubusercontent.com/u/75290254?s=400&u=ae9faeb0c8781fb444671c70a87aa40af899f60d&v=4"
+              },
+              {
+                "portfolio_website": "https://parkhi277.github.io/MyPortfolio/",
+                "portfolio_code": "https://github.com/PARKHI277/MyPortfolio",
+                "portfolio_name": "Parkhi Garg",
+                "portfolio_image": "https://avatars.githubusercontent.com/u/76432727?s=400&v=4"
               }
        ]
-}
+
+ }
