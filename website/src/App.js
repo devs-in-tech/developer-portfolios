@@ -1,4 +1,5 @@
 import data from "./data.json";
+
 import {useEffect,useState} from 'react';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
   }
   return (
     <>
+    
       <div className="header">
         <h1>OpenSourceHub</h1>
         <button className="btn" onClick={Toggle}>
@@ -22,7 +24,8 @@ function App() {
         </button>
       </div>
       {data.data.map((portfolio) => (
-        <a
+        <div key={portfolio.portfolio_website}>
+        <a 
           className="project"
           href={portfolio.portfolio_website}
           target="_blank"
@@ -47,6 +50,7 @@ function App() {
           </div>
 
         </a>
+        </div>
       ))}
     </>
   );
