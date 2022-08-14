@@ -165,3 +165,14 @@ body {
   border: 3px solid transparent;
   border-radius: 15px;
 }
+/* ------------Navbar --------------------------- */
+.navbar{
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar .title{
+  width:100%;
+  text-align: center;
+} 

@@ -1,4 +1,5 @@
 import data from "./data.json";
+import Navbar from "./Navbar";
 
 import {useEffect,useState} from 'react';
 
@@ -16,13 +17,8 @@ function App() {
   }
   return (
     <>
-    
-      <div className="header">
-        <h1>OpenSourceHub</h1>
-        <button className="btn" onClick={Toggle}>
-          <div className="dot"></div>
-        </button>
-      </div>
+    <Navbar Toggle={Toggle}/>
+     
       {data.data.map((portfolio) => (
         <div key={portfolio.portfolio_website}>
         <a 
