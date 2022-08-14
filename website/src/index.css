@@ -17,7 +17,7 @@
   --dot: rgb(250, 253, 254);
   --btn-shadow: black;
   --value: 0px;
-  --scroll-thumb: rgb(214, 196, 174);
+  --scroll-thumb: bisque;
   --scroll-track: rgba(29, 27, 27, 0.865);
 }
 .dark-theme {
