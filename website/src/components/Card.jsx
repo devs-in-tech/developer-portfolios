@@ -12,7 +12,7 @@ function Card(props) {
           rel="noreferrer"
         >
           <img
-            src={props.image}
+            src={props.image ? props.image : "no image"}
             alt={
               props.image ? props.image : "no image"
             }
