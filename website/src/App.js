@@ -2,6 +2,7 @@ import data from "./data.json";
 import Navbar from "./Navbar";
 
 import {useEffect,useState} from 'react';
+import Card from "./components/Card";
 
 function App() {
   const [theme, setTheme] = useState("light-theme");
@@ -21,31 +22,8 @@ function App() {
      
       {data.data.map((portfolio) => (
         <div key={portfolio.portfolio_website}>
-        <a 
-          className="project"
-          href={portfolio.portfolio_website}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src={
-              portfolio.portfolio_image ? portfolio.portfolio_image : "no image"
-            }
-            alt={
-              portfolio.portfolio_image ? portfolio.portfolio_image : "no image"
-            }
-          />
-          <div className="container">
-            <p className="personName">{portfolio.portfolio_name}</p>
-            <a
-              className="projectcode"
-              href={portfolio.portfolio_code}
-              target="_blank"
-              rel="noreferrer"
-            >Source Code</a>
-          </div>
-
-        </a>
+          <Card  name={portfolio.portfolio_name} website={portfolio.portfolio_website} image={portfolio.portfolio_image} code={portfolio.portfolio_code} />
+        
         </div>
       ))}
     </>
