@@ -168,11 +168,22 @@ body {
 /* ------------Navbar --------------------------- */
 .navbar{
   display: flex;
+  justify-content: space-between;
   align-items: center;
 
 }
 
 .navbar .title{
-  width:100%;
+  /* width:100%; */
   text-align: center;
 } 
+
+/* .navbar .toggle-button{
+  margin-right:-10%;
+} */
+/* 
+@media (max-width: 1024px){
+   .navbar .toggle-button{
+  margin-right:-5%;
+}
+} */
