@@ -1,12 +1,13 @@
-import data from "./data.json";
-
 import {useEffect,useState} from 'react';
+import data from "./data.json";
 
 function App() {
   const [theme, setTheme] = useState("light-theme");
+
   useEffect(() => {
     document.body.className = theme;
   }, [theme]);
+
   function Toggle() {
     if (theme === "dark-theme") {
       setTheme("light-theme");
@@ -25,12 +26,7 @@ function App() {
       </div>
       {data.data.map((portfolio) => (
         <div key={portfolio.portfolio_website}>
-        <a 
-          className="project"
-          href={portfolio.portfolio_website}
-          target="_blank"
-          rel="noreferrer"
-        >
+        <div className='project'>
           <img
             src={
               portfolio.portfolio_image ? portfolio.portfolio_image : "no image"
@@ -41,15 +37,22 @@ function App() {
           />
           <div className="container">
             <p className="personName">{portfolio.portfolio_name}</p>
-            <a
-              className="projectcode"
-              href={portfolio.portfolio_code}
-              target="_blank"
-              rel="noreferrer"
-            >Source Code</a>
+            <div className ='links'>
+              <a 
+                className="project_link"
+                href={portfolio.portfolio_website}
+                target="_blank"
+                rel="noreferrer"
+              >View portfolio</a>
+              <a
+                className="project_link"
+                href={portfolio.portfolio_code}
+                target="_blank"
+                rel="noreferrer"
+              >Source Code</a>
+            </div>
           </div>
-
-        </a>
+        </div>
         </div>
       ))}
     </>
