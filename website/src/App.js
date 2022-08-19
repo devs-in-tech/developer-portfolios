@@ -1,13 +1,13 @@
-import data from "./data.json";
-
 import {useEffect,useState} from 'react';
-import Card from "./components/Card";
+import data from "./data.json";
 
 function App() {
   const [theme, setTheme] = useState("light-theme");
+
   useEffect(() => {
     document.body.className = theme;
   }, [theme]);
+
   function Toggle() {
     if (theme === "dark-theme") {
       setTheme("light-theme");
@@ -31,8 +31,33 @@ function App() {
       </div>
       {data.data.map((portfolio) => (
         <div key={portfolio.portfolio_website}>
-          <Card  name={portfolio.portfolio_name} website={portfolio.portfolio_website} image={portfolio.portfolio_image} code={portfolio.portfolio_code} />
-        
+        <div className='project'>
+          <img
+            src={
+              portfolio.portfolio_image ? portfolio.portfolio_image : "no image"
+            }
+            alt={
+              portfolio.portfolio_image ? portfolio.portfolio_image : "no image"
+            }
+          />
+          <div className="container">
+            <p className="personName">{portfolio.portfolio_name}</p>
+            <div className ='links'>
+              <a 
+                className="project_link"
+                href={portfolio.portfolio_website}
+                target="_blank"
+                rel="noreferrer"
+              >View portfolio</a>
+              <a
+                className="project_link"
+                href={portfolio.portfolio_code}
+                target="_blank"
+                rel="noreferrer"
+              >Source Code</a>
+            </div>
+          </div>
+        </div>
         </div>
       ))}
     </>

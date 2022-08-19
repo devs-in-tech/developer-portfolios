@@ -12,10 +12,10 @@
   --project-background: rgb(244, 241, 241);
   --project-box-shadow: rgba(31, 38, 135, 0.37);
   --project-border: rgba(255, 255, 255, 0.18);
-  --projectcode-hover: grey;
+  --project_link-hover: grey;
   --project-hover: #cbc1c1;
   --project-img-box-shadow: black;
-  --projectcode: #393535;
+  --project_link: #393535;
   --button: #333;
   --dot: rgb(250, 253, 254);
   --btn-shadow: black;
@@ -29,10 +29,10 @@
   --project-background: rgb(0, 0, 0);
   --project-box-shadow: rgba(58, 68, 181, 0.212);
   --project-border: rgba(52, 51, 51, 0.18);
-  --projectcode-hover: rgb(17, 17, 17);
+  --project_link-hover: rgb(17, 17, 17);
   --project-hover: #7e787885;
   --project-img-box-shadow: rgb(117, 114, 114);
-  --projectcode: #ffffffdc;
+  --project_link: #ffffffdc;
   --button: rgb(244, 235, 235);
   --dot: rgba(0, 0, 0, 0.883);
   --btn-shadow: rgb(223, 204, 204);
@@ -62,7 +62,7 @@ body {
 .header {
   width: 100%;
   text-align: center;
-  color: var(--projectcode);
+  color: var(--project_link);
 }
 
 .about{
@@ -119,13 +119,21 @@ body {
   opacity: 0;
 }
 
-.projectcode {
-  margin-left: 80px;
-  margin-right: 80px;
+.links{
+  display:flex;
+  width:100%;
+  padding:0 .5em;
+  justify-content:center;
+  gap:.5em;
 }
-.projectcode:hover {
-  box-shadow: 2px 2px 14px var(--projectcode-hover);
-  padding: 2px;
+
+.project_link {
+  border-radius: 5px;
+  padding: .4em .8em;
+}
+.project_link:hover {
+  box-shadow: 2px 2px 14px var(--project_link-hover);
+ 
 }
 .project:hover {
   background-color: var(--project-hover);
@@ -154,10 +162,10 @@ body {
   font-size: 20px;
   padding: 0px;
 }
-.projectcode {
+.project_link {
   font-size: serif;
   line-height: 0.75pm;
-  color: var(--projectcode);
+  color: var(--project_link);
   text-decoration: none;
   opacity: 0.8;
 }
