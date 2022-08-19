@@ -24,6 +24,11 @@ function App() {
           <div className="dot"></div>
         </button>
       </div>
+      <div className = "about">
+        <h1>About this Project</h1>
+        <hr align="left" color="#61481c"></hr>
+        <p>Want to build a portfolio for yourself but could not get a satisfactory motivation? <br></br><br></br>This project brings together some awesome portfolio sites designed by developers to get you the right motivaiton. Click on the portfolio cards below and it will redirect you to that site. To view the code, click on the source code button.</p>
+      </div>
       {data.data.map((portfolio) => (
         <div key={portfolio.portfolio_website}>
           <Card  name={portfolio.portfolio_name} website={portfolio.portfolio_website} image={portfolio.portfolio_image} code={portfolio.portfolio_code} />
