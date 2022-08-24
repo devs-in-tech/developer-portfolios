@@ -205,6 +205,20 @@ body {
   border-radius: 15px;
 }
 
+/* ------------Navbar --------------------------- */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.navbar .title{
+  text-align: center;
+} 
+
+
+
 
 /* Responsiveness */
 @media only screen and (min-width: 1040px){
@@ -213,3 +227,4 @@ body {
 		box-shadow: 0 8px 32px 0 #61481c;
 	}
 }
+
