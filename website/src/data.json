@@ -54,6 +54,12 @@
                 "portfolio_code": "https://github.com/zugzwang03/Portfolio",
                 "portfolio_name":"Shreya Sarkar",
                 "portfolio_image": "https://avatars.githubusercontent.com/u/95460021?s=400&u=10673f6a6b4a5f7e50e0f4c3da9ece5a684759a7&v=4"
+              },
+              {
+                "portfolio_website": "https://anushasp07.netlify.app/",
+                "portfolio_code": "https://github.com/AnushaSP07/anusha-portfolio-repo",
+                "portfolio_name": "Anusha SP",
+                "portfolio_image": "https://github.com/AnushaSP07/anusha-portfolio-repo/tree/main/images"
               }
        ]
 
