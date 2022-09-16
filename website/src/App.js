@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import FaqSection from "./components/FaqSection";
 
 function App() {
   const [theme, setTheme] = useState("light-theme");
@@ -35,8 +36,8 @@ function App() {
         </p>
       </div>
       <Header />
-
       <Projects />
+      <FaqSection />
       <Footer />
     </>
   );

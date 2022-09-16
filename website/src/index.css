@@ -239,6 +239,31 @@ body {
     box-shadow: 0 8px 32px 0 #61481c;
   }
 }
+/* faq */
+.faq {
+  padding: 0 95px;
+  margin: 20px 0px 40px 0px;
+  border-radius: 10px;
+}
+.faq-title h2 {
+  font-weight: 700;
+  color: #6666;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.row-title-text {
+  color: rgb(4, 80, 4);
+  font-weight: 500;
+}
+.styles_row-content-text__2sgAB {
+  margin: 0 20px;
+}
+.faq-row-wrapper {
+  border-radius: 10px;
+}
+.styles_faq-row-wrapper__3vA1D {
+  padding: 10px 20px;
+}
 
 /* footer */
 .footer-distributed {
