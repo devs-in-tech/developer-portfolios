@@ -5,24 +5,24 @@ const data = {
   title: "FAQ",
   rows: [
     {
-      title: "what is OpenSourceHub",
+      title: "What is OpenSourceHub?",
       content:
-        "This project brings together some awesome portfolio sites designed by developers to get you the right motivaiton",
+        "This project brings together some awesome portfolio sites designed by developers to get you the right motivation.Here, the esteemed developers put forward their skilled and decorative portfolios in order to provide a rudimentary idea about the templates to be followed while making them. ",
     },
     {
-      title: "How to contribute ot openSourceHub",
+      title: "How to contribute ot openSourceHub?",
       content:
-        "This project brings together some awesome portfolio sites designed by developers to get you the right motivaiton",
+        "Firstly, read all the guidelines given in the README.md file of the project, then go through all the files and directories of the project concerned, find issues where you can improve upon the existing project, and create issues and wait for it to get assigned ,and thereby pull a request to contribute to OpenSourceHub.",
     },
     {
-      title: "what is do we do in this project",
+      title: "What can you do in this project?",
       content:
-        "This project brings together some awesome portfolio sites designed by developers to get you the right motivaiton",
+        "You can add new content to this project containing your specialized portfolio, and help others to know how to create such awesome devfolios.",
     },
     {
-      title: "what is SSOC",
+      title: "What is SSOC?",
       content:
-        "This project brings together some awesome portfolio sites designed by developers to get you the right motivaiton",
+        "SSOC is a 3 month open source Program organized by social. They aim to promote open source with new age technologies & want everyone to get the right path and guidance through SSOC.",
     },
   ],
 };
