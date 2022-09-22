@@ -247,6 +247,7 @@ body {
 }
 .faq-title h2 {
   font-weight: 700;
+  padding-bottom: 20px;
   color: #6666;
   text-decoration: underline;
   text-underline-position: under;
