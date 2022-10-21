@@ -60,7 +60,13 @@
                 "portfolio_code": "https://github.com/AnushaSP07/anusha-portfolio-repo",
                 "portfolio_name": "Anusha SP",
                 "portfolio_image": "https://github.com/AnushaSP07/anusha-portfolio-repo/tree/main/images"
-              }
+              },
+              {
+                "portfolio_website": "https://tinniaru3005.github.io/Basic-Portfolio/",
+                "portfolio_code": "https://github.com/tinniaru3005/Basic-Portfolio",
+                "portfolio_image": "",
+                "portfolio_name": "Arunima Chaudhuri"
+}
        ]
 
  }
