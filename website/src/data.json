@@ -61,6 +61,12 @@
                 "portfolio_name": "Anusha SP",
                 "portfolio_image": "https://github.com/AnushaSP07/anusha-portfolio-repo/tree/main/images"
               }
+                            {
+                "portfolio_website": "https://ambareen.netlify.app/",
+                "portfolio_code": "https://github.com/Ambareen09/My-personal-portfolio",
+                "portfolio_name": "Ambareen Azam",
+                "portfolio_image": "https://github.com/Ambareen09/My-personal-portfolio/blob/master/src/styles/img/Screenshot%20from%202023-04-05%2022-15-27.png"
+              }
        ]
 
  }
