@@ -60,6 +60,12 @@
                 "portfolio_code": "https://github.com/AnushaSP07/anusha-portfolio-repo",
                 "portfolio_name": "Anusha SP",
                 "portfolio_image": "https://github.com/AnushaSP07/anusha-portfolio-repo/tree/main/images"
+              },
+              {
+                "portfolio_website": "https://aathirajan.netlify.app/",
+                "portfolio_code": "https://github.com/Aathirajan/Personal-portfolio",
+                "portfolio_image": "https://i.ibb.co/s2VHM86/New-Dp.jpg",
+                "portfolio_name": "Aathi Rajan"
               }
                             {
                 "portfolio_website": "https://ambareen.netlify.app/",
