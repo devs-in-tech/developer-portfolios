@@ -62,12 +62,18 @@
                 "portfolio_image": "https://github.com/AnushaSP07/anusha-portfolio-repo/tree/main/images"
               },
               {
+                 "portfolio_website": "https://suraj-portfolio-d12000.netlify.app/",
+                 "portfolio_code": "https://github.com/SurajPratap10/Portfolio_Website_Project2",
+                 "portfolio_name": "Suraj Pratap",
+                 "portfolio_image": "https://github.com/SurajPratap10/Portfolio_Website_Project2/blob/main/Portfolio/images/ppic.jpg"               
+              },
+              {
                 "portfolio_website": "https://aathirajan.netlify.app/",
                 "portfolio_code": "https://github.com/Aathirajan/Personal-portfolio",
                 "portfolio_image": "https://i.ibb.co/s2VHM86/New-Dp.jpg",
                 "portfolio_name": "Aathi Rajan"
-              }
-                            {
+              },
+              {
                 "portfolio_website": "https://ambareen.netlify.app/",
                 "portfolio_code": "https://github.com/Ambareen09/My-personal-portfolio",
                 "portfolio_name": "Ambareen Azam",
