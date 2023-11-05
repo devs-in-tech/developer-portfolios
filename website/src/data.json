@@ -84,6 +84,12 @@
                 "portfolio_code": "https://github.com/Ambareen09/My-personal-portfolio",
                 "portfolio_name": "Ambareen Azam",
                 "portfolio_image": "https://github.com/Ambareen09/My-personal-portfolio/blob/master/src/styles/img/Screenshot%20from%202023-04-05%2022-15-27.png"
+              },
+              {
+                "portfolio_website": "https://bieefilled.vercel.app/",
+                "portfolio_code": "https://github.com/Petsamuel/Bieefilled",
+                "portfolio_name": "SamueL Peters",
+                "portfolio_image": "https://avatars.githubusercontent.com/u/65086865?v=4"
               }
        ]
 
